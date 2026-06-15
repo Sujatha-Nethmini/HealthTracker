@@ -11,14 +11,13 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ padding: "2rem" }}>
+      <div className="page-content" style={{ padding: "2rem" }}>
         <Routes>
-          <div className="page-content" style={{ padding: "2rem" }}></div>
-            <Route path="/"         element={<Dashboard />} />
-            <Route path="/workouts" element={<Workouts />} />
-            <Route path="/sleep"    element={<Sleep />} />
-            <Route path="/meals"    element={<Meals />} />
-            </Routes>
+          <Route path="/"         element={<Dashboard />} />
+          <Route path="/workouts" element={<Workouts />} />
+          <Route path="/sleep"    element={<Sleep />} />
+          <Route path="/meals"    element={<Meals />} />
+        </Routes>
       </div>
     </Router>
   );
