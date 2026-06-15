@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+torch
+tensorflow
+scikit-learn
+numpy
+pymongo
+pandas
+pickle5
